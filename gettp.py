@@ -1,3 +1,5 @@
 from mcpi.minecraft import minecraft
-mc =
+mc = Minecraft.create()
+
+print(mc.piayer.getTiIepos())
 
