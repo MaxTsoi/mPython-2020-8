@@ -7,4 +7,4 @@ def plantTree(x,y,z):
     mc.setBlocks(x,y,z,x,y+4,z,17)
 for h in range(0,50,3):
     for i in range(0,50,3):
-     plantTree(x+i,y,z+h)
+    plantTree(x+i,y,z+h)
